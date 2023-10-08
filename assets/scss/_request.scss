@@ -1,0 +1,291 @@
+#nav{
+    @media screen and (max-width: 821px) {
+        .container {
+
+            .navigation {
+                display: flex;
+
+                span {
+                    &:nth-child(1) {
+                        display: none;
+                    }
+
+                    a{
+                        font-size: 34px;
+                    }
+
+                    i{
+                        font-size: 34px;
+                    }
+
+                }
+
+                .second{
+                    display: none;
+                }
+            }
+
+
+        }
+
+    }
+
+}
+
+#request {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: end;
+
+        .request_container {
+            // padding: 100px;
+            display: flex;
+            justify-content: start;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .row {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+
+            .inputs {
+                margin-bottom: 40px;
+
+                label {
+                    font-weight: 500;
+                    color: #5E5E5E;
+                }
+
+                input {
+                    border: none;
+                    border-bottom: 1px solid white;
+                    color: white;
+                    font-family: MonumentGrotesk-Regular, helvetica, arial, sans-serif;
+                    font-size: 0.8rem;
+                    letter-spacing: .5px;
+                    padding: 14.5px 26px 14.5px 6px;
+                    width: 100%;
+                    background-color: #000;
+
+                    &:focus {
+                        border-color: #ffffff;
+                        outline: none;
+                    }
+                }
+
+           
+
+                select {
+                    background-color: #000;
+                    border: none;
+                    border-bottom: 1px solid white;
+                    color: #5E5E5E;
+                    font-family: MonumentGrotesk-Regular, helvetica, arial, sans-serif;
+                    font-size: 0.8rem;
+                    letter-spacing: .5px;
+                    padding: 14.5px 26px 14.5px 6px;
+                    width: 100%;
+
+                    &:focus {
+                        border-color: #ffffff;
+                        outline: none;
+                    }
+
+                    option {
+                        color: var(--White, #EFEFEF);
+                        font-family: Poppins;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        width: 270px;
+                        height: 265px;
+                        flex-shrink: 0;
+                        background: #232323;
+                        padding: 10px;
+                     
+                    }
+                }
+
+                textarea {
+                    border: none;
+                    border-bottom: 1px solid white;
+                    ;
+                    color: white;
+                    font-family: MonumentGrotesk-Regular, helvetica, arial, sans-serif;
+                    font-size: 0.8rem;
+                    letter-spacing: .5px;
+                    padding: 14.5px 26px 14.5px 6px;
+                    width: 100%;
+                    background-color: #000;
+
+                    &:focus {
+                        border-color: white;
+                        outline: none;
+                    }
+                }
+            }
+
+            .text {
+                grid-column: 1/-1;
+
+            }
+
+            .submit_button {
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 32px;
+                letter-spacing: -0.48px;
+                background-color: #000;
+                border: none;
+                display: flex;
+                cursor: pointer;
+            }
+
+
+        }
+    }
+
+    .image {
+        background-image: url("./../../assets/images/Rectangle\ 78.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 605px;
+        height: 579px;
+    }
+
+    @media screen and (max-width: 821px){
+        .container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
+            gap: 60px;
+    
+        
+    
+            .row {
+                gap: 20px;
+    
+         
+    
+            }
+        }
+    
+    }
+    @media screen and (max-width: 391px){
+        .container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: end;
+    
+            .request_container {
+                // padding: 100px;
+                display: flex;
+                justify-content: start;
+                width: 100%;
+                justify-content: center;
+            }
+    
+            form{
+                width: 85%;
+                .row {
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    gap: 20px;
+        
+                    .inputs {
+                        margin-bottom: 40px;
+        
+                        label {
+                            font-weight: 500;
+                            color: #5E5E5E;
+                        }
+        
+                        input {
+                            border: none;
+                            border-bottom: 1px solid white;
+                            color: white;
+                            font-family: MonumentGrotesk-Regular, helvetica, arial, sans-serif;
+                            font-size: 0.8rem;
+                            letter-spacing: .5px;
+                            padding: 14.5px 26px 14.5px 6px;
+                            width: 100%;
+                            background-color: #000;
+        
+                            &:focus {
+                                border-color: #ffffff;
+                                outline: none;
+                            }
+                        }
+        
+                   
+        
+                        select {
+                            background-color: #000;
+                            border: none;
+                            border-bottom: 1px solid white;
+                            color: #5E5E5E;
+                            font-family: MonumentGrotesk-Regular, helvetica, arial, sans-serif;
+                            font-size: 0.8rem;
+                            letter-spacing: .5px;
+                            padding: 14.5px 26px 14.5px 6px;
+                            width: 100%;
+        
+                            &:focus {
+                                border-color: #ffffff;
+                                outline: none;
+                            }
+        
+                            option {
+                                color: var(--White, #EFEFEF);
+                                font-family: Poppins;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                width: 270px;
+                                height: 265px;
+                                flex-shrink: 0;
+                                background: #232323;
+                                padding: 10px;
+                             
+                            }
+                        }
+        
+                        textarea {
+                            border: none;
+                            border-bottom: 1px solid white;
+                            ;
+                            color: white;
+                            font-family: MonumentGrotesk-Regular, helvetica, arial, sans-serif;
+                            font-size: 0.8rem;
+                            letter-spacing: .5px;
+                            padding: 14.5px 26px 14.5px 6px;
+                            width: 100%;
+                            background-color: #000;
+        
+                            &:focus {
+                                border-color: white;
+                                outline: none;
+                            }
+                        }
+                    }
+        
+               
+        
+        
+        
+                }
+            }
+        }
+    
+      
+    
+    }
+}

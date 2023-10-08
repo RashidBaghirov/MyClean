@@ -1,0 +1,67 @@
+#backimage_title_contact {
+    position: relative;
+
+    .backimage {
+        height: 338px;
+        background-image: url("./../images/tesla.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .title {
+        position: absolute;
+        bottom: -180px;
+        left: 135px;
+
+        p {
+            font-family: Poppins;
+            font-size: 120px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120px;
+            letter-spacing: -1.8px;
+            text-transform: uppercase;
+            color: #FFF;
+        }
+    }
+
+    @media screen and (max-width: 821px) {
+        & {
+            .backimage {
+                height: 338px;
+                background-image: url("./../images/tesla.png");
+            }
+
+            .title {
+                bottom: -111px;
+                left: 95px;
+
+                p {
+                    font-size: 84px;
+                }
+            }
+
+
+        }
+    }
+
+    @media screen and (max-width: 391px) {
+        & {
+            .backimage {
+                background-image: url("./../images/tesla.png");
+                width: 583px;
+                height: 183px;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+        }
+
+
+    }
+}
+
+// @media screen and (max-width: 391px) {}
+
+
+

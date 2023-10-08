@@ -1,0 +1,202 @@
+#nav {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 60px;
+        margin: 0 50px;
+
+        .navigation {
+            margin: 0 0 0 65px;
+
+            span {
+                margin: 0 20px 0 0;
+
+                a {
+                    color: var(--White, #EFEFEF);
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-decoration: none;
+
+                }
+
+                i {
+                    color: var(--White, #EFEFEF);
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-decoration: none;
+                }
+
+
+
+
+            }
+
+
+        }
+
+
+    }
+
+    @media screen and (max-width: 821px) {
+        .container {
+
+            .navigation {
+                display: flex;
+
+                span {
+                    &:nth-child(1) {
+                        display: none;
+                    }
+
+                    a{
+                        font-size: 34px;
+                    }
+
+                    i{
+                        font-size: 34px;
+                    }
+
+                }
+
+
+            }
+
+
+        }
+
+    }
+}
+
+
+#_abackimage_title {
+    position: relative;
+
+    .backimage {
+        height: 338px;
+        background-image: url("./../../assets/images/Rectangle\ 20.png");
+        background-repeat: round;
+
+    }
+
+    .title {
+        position: absolute;
+        bottom: -182px;
+        left: 135px;
+        p {
+            font-family: Bebas Neue;
+            font-size: 120px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120px;
+            letter-spacing: -1.8px;
+            text-transform: uppercase;
+            color: #FFF;
+        }
+
+      
+    }
+
+    @media screen and (max-width: 821px) {
+        & {
+            .backimage {
+                background-image: url("./../../assets/images/Rectangle\ 20.png");
+                height: 183px;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+
+            .title {
+                bottom: -111px;
+                left: 20px;
+
+                p {
+                    font-size: 56px;
+                }
+            }
+
+
+        }
+    }
+
+    @media screen and (max-width: 391px) {
+        & {
+            .backimage {
+                background-image: url("./../../assets/images/Rectangle\ 20.png");
+                width: 583px;
+                height: 183px;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+        }
+
+
+    }
+
+}
+
+
+#about {
+    padding: 100px;
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 145px;
+        padding: 20px;
+        margin: 0 50px;
+
+        .title_div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .title {
+                width: 470px;
+                height: 239px;
+                flex-shrink: 0;
+
+                p {
+                    color: #FFF;
+                    font-family: Poppins;
+                    font-size: 19px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+            }
+        }
+ 
+    }
+    @media screen and (max-width: 821px) {
+        &{
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+                gap: 20px;
+
+
+                .title_div {
+        
+                    .title {
+                        h4 {
+                            font-weight: 400;
+                        }
+        
+                        p {
+                            font-weight: 400;
+        
+                        }
+                    }
+                }
+            }
+        }
+}
+}

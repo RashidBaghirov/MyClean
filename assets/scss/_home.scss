@@ -1,0 +1,430 @@
+#About {
+
+    padding-top: 260px;
+
+    .container {
+        width: 1320px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .flex___container {
+        display: flex;
+        justify-content: space-between;
+
+        .left {
+            h1 {
+                color: var(--Yellow, #FDCE00);
+                font-size: 120px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 20px;
+                letter-spacing: -1.8px;
+                font-family: Bebas Neue;
+            }
+
+            p {
+                width: 470px;
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                margin-left: 120px;
+            }
+
+            .detailed-button {
+                position: relative;
+
+                a {
+                    color: #FFF;
+                    font-family: Poppins;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 32px;
+                    letter-spacing: -0.48px;
+                    margin-left: 120px;
+                }
+
+                p {
+                    width: 33px;
+                    height: 25px;
+                    position: absolute;
+                    top: -15px;
+                    left: 5px;
+                }
+            }
+        }
+
+        .right {
+            background-image: url("../../images/Rectangle\ 4.jpg");
+            width: 605px;
+            height: 500px;
+            background-origin: border-box;
+            background-size: cover;
+            margin-right: -100px;
+            margin-top: 50px;
+        }
+    }
+}
+
+#Products {
+
+    .container {
+        width: 1320px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    h1 {
+        color: var(--Yellow, #FDCE00);
+        font-size: 120px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -1.8px;
+        font-family: Bebas Neue;
+        height: 0px;
+    }
+
+    .more {
+        position: relative;
+        text-align: end;
+        padding-bottom: 25px;
+
+        a {
+            color: #FFF;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px;
+            letter-spacing: -0.48px;
+            font-family: Poppins;
+            margin-right: 70px;
+        }
+
+        p {
+            text-align: end;
+            width: 33px;
+            height: 25px;
+            position: absolute;
+            bottom: 15px;
+            right: 10px;
+        }
+    }
+
+    .flex___container {
+        display: flex;
+        justify-content: center;
+        gap: 75px;
+
+        .product {
+            color: white;
+
+            .product-image {
+                width: 270px;
+                height: 246px;
+            }
+
+            .product-name {
+                color: var(--White, #EFEFEF);
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 36px;
+                font-family: Bebas Neue;
+                padding-top: 25px;
+            }
+
+            .product-price {
+                color: #FFF;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: -0.12px;
+                font-family: Poppins;
+                padding-top: 45px;
+
+            }
+
+            .product-desc {
+                width: 270px;
+                color: #FFF;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                font-family: Poppins;
+            }
+        }
+    }
+}
+
+
+#Cars {
+    padding-bottom: 200px;
+
+
+    .container {
+        width: 1320px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    h1 {
+        color: var(--Yellow, #FDCE00);
+        font-size: 120px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -1.8px;
+        font-family: Bebas Neue;
+        height: 0px;
+        text-align: center;
+    }
+
+    .more {
+        position: relative;
+        text-align: end;
+        padding-bottom: 25px;
+
+        a {
+            color: #FFF;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px;
+            letter-spacing: -0.48px;
+            font-family: Poppins;
+            margin-right: 70px;
+        }
+
+        p {
+            text-align: end;
+            width: 33px;
+            height: 25px;
+            position: absolute;
+            bottom: 15px;
+            right: 10px;
+        }
+    }
+
+    .flex___container {
+        display: flex;
+        justify-content: center;
+        gap: 75px;
+
+
+        .car-image {
+            width: 370px;
+            height: 265px;
+        }
+
+        .car-name {
+            color: var(--White, #EFEFEF);
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 45px;
+            letter-spacing: -0.225px;
+            font-family: Bebas Neue;
+        }
+
+        .car-price {
+            color: #FFF;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: -0.12px;
+            font-family: Poppins;
+        }
+
+        .car-desc {
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            font-family: Poppins;
+        }
+
+    }
+}
+
+#Contact {
+
+
+    .container {
+        width: 1320px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .title {
+        h1 {
+            color: var(--Yellow, #FDCE00);
+            font-family: Bebas Neue;
+            font-size: 120px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 120px;
+            letter-spacing: -1.8px;
+            text-align: center;
+        }
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            display: flex;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            font-family: Poppins;
+
+            svg {
+                margin-right: 50px;
+            }
+
+            p {
+                margin: 0;
+            }
+        }
+
+        .phone-icon {
+            display: flex;
+            align-items: flex-start;
+
+            .first_number {
+                margin-bottom: 25px;
+            }
+        }
+
+        .loc-mail {
+            flex-direction: column;
+
+            .location-icon-text {
+                display: flex;
+                align-items: flex-start;
+                margin-bottom: 25px;
+
+                span {
+                    max-width: 257px;
+                }
+            }
+        }
+
+
+    }
+}
+
+
+#Blog {
+    .container {
+
+        width: 1320px;
+        margin-right: auto;
+        margin-left: auto;
+
+
+        background: var(--Yellow, #FDCE00);
+
+        .customers__slide {
+            width: 91%;
+
+            .blog-post-add {
+
+                .title {
+                    width: 70%;
+
+                    h1 {
+                        color: var(--Black, #0E0E0E);
+                        font-size: 120px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 120px;
+                        letter-spacing: -1.8px;
+                        font-family: Bebas Neue;
+                        margin-left: 70px;
+                    }
+
+                }
+
+                .flex___container {
+                    display: flex;
+                    position: relative;
+                    bottom: 74px;
+                    left: 160px;
+
+                    .left {
+                        .image {
+                            width: 400px;
+                            height: 286px;
+                        }
+
+                    }
+
+                    .right {
+                        margin-left: 60px;
+
+                        h2 {
+                            color: var(--Black, #0E0E0E);
+                            font-size: 45px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 45px;
+                            letter-spacing: -0.225px;
+                            font-family: Bebas Neue;
+                            text-transform: uppercase;
+                        }
+
+                        .more {
+                            position: relative;
+
+                            a {
+                                color: var(--Black, #0E0E0E);
+                                font-family: Poppins;
+                                font-size: 32px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 32px;
+                                letter-spacing: -0.48px;
+                            }
+
+                            p {
+                                text-align: end;
+                                width: 33px;
+                                height: 25px;
+                                position: absolute;
+                                bottom: -7px;
+                                left: 120px;
+                            }
+                        }
+
+                        .text {
+                            width: 470px;
+
+                            p {
+                                color: var(--Black, #0E0E0E);
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 24px;
+                                font-family: Poppins;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

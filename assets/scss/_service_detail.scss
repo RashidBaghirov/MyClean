@@ -1,0 +1,123 @@
+#nav{
+    @media screen and (max-width: 821px) {
+        .container {
+
+            .navigation {
+                display: flex;
+
+                span {
+                    &:nth-child(1) {
+                        display: none;
+                    }
+
+                    a{
+                        font-size: 34px;
+                    }
+
+                    i{
+                        font-size: 34px;
+                    }
+
+                }
+
+                .second{
+                    display: none;
+                }
+            }
+
+
+        }
+
+    }
+
+}
+
+#service_detail {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 45px;
+
+        .image {
+            display: flex;
+            justify-content: center;
+        }
+
+        .title_div {
+            display: flex;
+            justify-content: center;
+
+            .title {
+                width:600px;
+                height: 239px;
+                flex-shrink: 0;
+
+                h4 {
+
+                    color: var(--Yellow, #FDCE00);
+                    font-size: 33px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 45px;
+                    letter-spacing: -0.225px;
+                    text-transform: uppercase;
+                    margin-bottom:10px ;
+
+
+                }
+
+                p {
+                    color: #FFF;
+                    font-family: Poppins;
+                    font-size: 19px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    margin-bottom:10px ;
+
+                }
+
+                .a_and_svg{
+                    display: flex;
+                    margin-top: 40px;
+                    cursor: pointer;
+                    a {
+                        color: #FFF;
+                        font-family: Poppins;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 32px;
+                        letter-spacing: -0.48px;
+                        margin-right: 20px;
+                       
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 821px) {
+        &{
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+                gap: 100px;
+                justify-items: center;
+                .first{
+                    display: none;
+                }
+
+                .second{
+                    display: block !important;
+                }
+
+                .image {
+                    width: 730px;
+                    padding: 13px;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+}
+}

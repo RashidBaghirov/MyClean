@@ -1,0 +1,146 @@
+#nav{
+    @media screen and (max-width: 821px) {
+        .container {
+
+            .navigation {
+                display: flex;
+
+                span {
+                    &:nth-child(1) {
+                        display: none;
+                    }
+
+                    a{
+                        font-size: 34px;
+                    }
+
+                    i{
+                        font-size: 34px;
+                    }
+
+                }
+
+                .second{
+                    display: none;
+                }
+            }
+
+
+        }
+
+    }
+
+}
+
+
+#product_detail {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 50px;
+        .image {
+            display: flex;
+            justify-content: center;
+        }
+
+        .title_div {
+            display: flex;
+            justify-content: center;
+
+            .title {
+                width: 600px;
+                height: 239px;
+                flex-shrink: 0;
+
+                .title_h4 {
+                    margin: 20px;
+                    h4 {
+
+                        color: var(--Yellow, #FDCE00);
+
+                        font-family: Bebas Neue;
+                        font-size: 45px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 45px;
+                        letter-spacing: -0.225px;
+
+
+                    }
+                }
+
+
+
+                .title_text {
+                    margin: 20px;
+
+                    p {
+                        color: #FFF;
+
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+
+                    }
+                }
+
+                .title_price {
+                    margin: 20px;
+                        p{
+                            
+                    color: #FFF;
+                    font-family: Poppins;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: -0.12px;
+                        }
+                }
+
+
+            }
+        }
+    }
+    @media screen and (max-width: 821px){
+        &{
+            .container {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                padding: 50px;
+                .image {
+                    left: 50%;
+                    position: absolute;
+                    transform: translate(-50%);
+                }
+        
+                .title_div {
+                    margin-top: 500px;
+        
+               
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 391px){
+        &{
+            .container {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                padding: 50px;
+                .image {
+                   position: absolute;
+                }
+        
+                .title_div {
+                    margin-top: 500px;
+        
+               
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,216 @@
+#backimage_title_blog {
+    position: relative;
+
+    .backimage {
+        height: 338px;
+        background-image: url("./../../assets/images/blog.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .title {
+        position: absolute;
+        bottom: -180px;
+        left: 135px;
+
+        p {
+            font-family: Poppins;
+            font-size: 120px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120px;
+            letter-spacing: -1.8px;
+            text-transform: uppercase;
+            color: #FFF;
+        }
+    }
+
+    @media screen and (max-width: 821px) {
+        & {
+            .backimage {
+                height: 338px;
+                background-image: url("./../../assets/images/blog.png");
+            }
+
+            .title {
+                bottom: -111px;
+                left: 95px;
+
+                p {
+                    font-size: 84px;
+                }
+            }
+
+
+        }
+    }
+
+    @media screen and (max-width: 391px) {
+        & {
+            .backimage {
+                background-image: url("./../../assets/images/blog.png");
+                width: 583px;
+                height: 183px;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+        }
+
+
+    }
+}
+
+// @media screen and (max-width: 391px) {}
+
+
+
+#blog {
+    padding: 100px;
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+        .image {
+            display: flex;
+            justify-content: end;
+
+            width: 570px;
+          
+
+            img {
+                object-fit: contain;
+                aspect-ratio: 1/1;
+                width: 100%;
+            }
+        }
+
+        .title_div {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            .title {
+                width: 470px;
+                height: 239px;
+                flex-shrink: 0;
+
+                h4 {
+
+                    color: white;
+                    font-size: 33px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 45px;
+                    letter-spacing: -0.225px;
+                    text-transform: uppercase;
+                    margin-bottom: 10px;
+
+
+                }
+
+                p {
+                    color: #FFF;
+                    font-family: Poppins;
+                    font-size: 19px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    margin-bottom: 10px;
+
+                }
+
+                .a_and_svg {
+                    display: flex;
+                    margin-top: 40px;
+                    cursor: pointer;
+
+                    a {
+                        color: #FFF;
+                        font-family: Poppins;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 32px;
+                        letter-spacing: -0.48px;
+                        margin-right: 20px;
+
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 821px) {
+        & {
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+                gap: 20px;
+             justify-items: center;
+
+                .title_div {
+
+                    .title {
+                        h4 {
+                            font-weight: 400;
+                        }
+
+                        p {
+                            font-weight: 400;
+
+                        }
+                    }
+                }
+
+
+
+
+
+
+
+                .image {
+                    margin-top: 50px;
+                    display: flex;
+                    justify-content: center;
+                    width: 520px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 391px) {
+        & {
+            padding: 0;
+
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+                gap: 20px;
+
+
+                .title_div {
+
+                    .title {
+                        h4 {
+                            font-weight: 400;
+                        }
+
+                        p {
+                            font-weight: 400;
+
+                        }
+                    }
+                }
+
+                .image {
+                    width: 450px;
+                }
+
+
+            }
+        }
+    }
+}

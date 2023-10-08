@@ -1,0 +1,156 @@
+#backimage_title_products {
+    position: relative;
+
+    .backimage {
+        height: 338px;
+        background-image: url("./../../assets/images/Rectangle\ 20\ \(2\).png");
+        background-repeat: round;
+        background-size: contain;
+    }
+
+    .title {
+        position: absolute;
+        bottom: -180px;
+        left: 135px;
+
+        p {
+            font-family: Poppins;
+            font-size: 120px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120px;
+            letter-spacing: -1.8px;
+            text-transform: uppercase;
+            color: #FFF;
+        }
+    }
+
+    @media screen and (max-width: 821px) {
+        & {
+            .backimage {
+                background-image: url("./../../assets/images/Rectangle\ 20\ \(2\).png");
+
+                height: 183px;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+
+            .title {
+                bottom: -111px;
+                left: 76px;
+
+                p {
+                    font-size: 56px;
+                }
+            }
+
+
+        }
+    }
+
+    @media screen and (max-width: 391px) {
+        & {
+            .backimage {
+                background-image: url("./../../assets/images/Rectangle\ 20\ \(2\).png");
+
+                width: 583px;
+                height: 183px;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+        }
+
+
+    }
+}
+
+
+
+#products {
+    padding: 100px;
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 126px;
+        padding: 45px;
+
+        .product {
+            .image {
+                width: 310px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .product_title {
+                margin-top: 20px;
+
+                p {
+                    color: var(--White, #EFEFEF);
+                    font-family: Bebas Neue;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 36px;
+                    text-transform: uppercase;
+                }
+            }
+
+            .price {
+                margin-top: 20px;
+
+                p {
+                    color: #FFF;
+                    font-family: Poppins;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: -0.12px;
+                }
+            }
+
+            .product_about {
+                margin-top: 20px;
+
+                p {
+                    color: #FFF;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+
+
+    @media screen and (max-width: 821px){
+        &{
+            .container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 60px;
+                padding: 0;
+          
+            }
+        }
+    }
+
+    @media screen and (max-width:391px){
+        &{
+            .container {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                gap: 60px;
+                padding: 40px;
+          
+            }
+        }
+    }
+}
